@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "22.16.0"
+    "node": "22"
   },
   "dependencies": {
     "@google-cloud/speech": "^7.2.1",
