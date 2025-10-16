@@ -127,6 +127,8 @@ app.post('/speak-reply', async (req, res) => {
     res.send(ttsResponse.audioContent);
 });
 
-app.listen(8080, () => {
-    console.log('Insurance Voice Agent running on port 8080');
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+    console.log(`Insurance Voice Agent running on port ${port}`);
 });
+
