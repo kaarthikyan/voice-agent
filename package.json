@@ -1,0 +1,25 @@
+{
+  "name": "voice-agent",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node agent.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "22.16.0"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.1",
+    "@google-cloud/text-to-speech": "^6.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.33.0",
+    "livekit-server-sdk": "^2.14.0",
+    "multer": "^2.0.2"
+  }
+}
