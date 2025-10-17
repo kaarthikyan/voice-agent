@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "agent.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "agent.js" }
-  ]
-}
